@@ -3,12 +3,12 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: bottlerocket-opensearch-beta
+  name: crap-cluster
   region: us-east-2
   version: "1.27"
 
 nodeGroups:
-  - name: ng-bottlerocket-opensearch
+  - name: ng-crap-cluster
     instanceType: t2.micro
     desiredCapacity: 3
     amiFamily: Bottlerocket
